@@ -8,7 +8,7 @@
 body{
     background: 
         linear-gradient(rgba(20, 21, 20, 0.85), rgba(20, 21, 20, 0.85)),
-        url('/portfolio/backgroundHK.jpg');
+        url('photo/backgroundHK.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ hr{
     transform: translatex(-5.5rem)translateY(1.5rem);
 }
 
-.hreosub{
+.herosub{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -141,13 +141,13 @@ hr{
 .aboutTitle {
   color: #00adb5;
 }
-.aboutMeParagraf {
+.aboutMePar {
   text-align: justify;
   color: rgba(238, 238, 238, 0.75);
 }
 
 .works {
-  background-image: url("/portfolio/background.svg");
+  background-image: url("photo/background.svg");
   padding: 10rem 10rem;
   margin: 5rem 0rem;
 }
