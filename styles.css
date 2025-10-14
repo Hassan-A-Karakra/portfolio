@@ -15,7 +15,7 @@ body{
 
      
 
-    url('./photo/backgroundHK.jpg');
+   
     url('photo/backgroundHK.jpg');
     url('/photo/backgroundHK.jpg');
     url('../photo/backgroundHK.jpg');
