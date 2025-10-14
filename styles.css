@@ -146,6 +146,49 @@ hr{
   color: rgba(238, 238, 238, 0.75);
 }
 
+.skills-list {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list h4 {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.skills-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    color: #fff;
+    padding: 12px 15px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.skills-list li:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+ 
+
+ 
 .works {
   background-image: url("photo/background.svg");
   padding: 10rem 10rem;
@@ -525,6 +568,20 @@ footer {
     
     .aboutmeimg {
         width: 400px;
+    }
+    
+       .skills-list {
+        padding: 12px;
+        margin-top: 15px;
+    }
+    
+    .skills-list h4 {
+        font-size: 1.1em;
+    }
+    
+    .skills-list li {
+        padding: 10px 12px;
+        font-size: 0.9em;
     }
     
     .works {
