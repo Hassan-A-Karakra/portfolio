@@ -8,7 +8,7 @@
 body{
     background: 
         linear-gradient(rgba(20, 21, 20, 0.85), rgba(20, 21, 20, 0.85)),
-        url('photo/backgroundHK.jpg');
+        url('/photo/backgroundHK.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
